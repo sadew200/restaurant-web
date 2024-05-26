@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body{
+    background-image: url(../img/pexels-enginakyurt-2992314.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#take{  
+    position: absolute;
+    top:7%;
+    right: 6%;
+   
+ }
+ .B3{
+    background-color: black;
+    color: azure;
+    padding: 20px 30px;
+    font-family: "Kalam", cursive;
+    font-size: larger;
+    font-weight: 900;
+ 
+   
+}
+.B3:hover{
+    background-color: red;
+    
+}
+
+.B2{
+    border-style: dashed;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 25px 60px;
+    background-color:red;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 80px;
+    margin-left: 80px;
+   
+}
+.B2:hover{
+    background-color:black ;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+#mainMenu{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+#buttons{
+    position: absolute;
+    top:7%;
+    left: 30%;
+   
+ }
+
+ .B{
+    font-family: "Jaro", sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-right: 40px;
+    text-decoration: none;
+    color: azure;
+
+}
+.B:hover{
+    text-decoration: underline red 7px;
+
+}
+
+#icon{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+#img{
+    border-radius: 20px;
+}
+#rname{
+    background-color: rgb(0, 0, 0,0.5);
+    color: darkgoldenrod;
+    position: absolute;
+    padding-right:50% ;
+}
+#ourM{
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 120px;
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    padding: 10px 100px;
+    left: 80px;
+
+}
+#menuImg{
+    top:200px;
+    right: 6%;
+ 
+    
+}
+#table{
+    top:200px;
+    right: 4%;
+    position: absolute;
+    border: 1px;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+#move{
+    position: fixed;
+    top:7%;
+    right: 6%;
+   
+}
+#Menu{
+    font-family: "Major Mono Display", monospace;
+    background-color: azure;
+}
+#table{
+    border: 10px;
+    background-color: aliceblue;
+}
+.part1{
+    color: brown;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+}
+.part2{
+    color: brown;
+    font-size: 22px;
+    font-weight: bold;
+}

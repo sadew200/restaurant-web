@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style03.css">
+    <link rel="icon" href="../img/mainLogo.jpg">
+</head>
+<body>
+    <img id="img" src="../img/mainLogo.jpg" width="140">
+    <h1 id="rname">CARBONE</h1>
+    <div id="buttons2">
+        <a href="#" class="B2" onclick="Function()">Menue</a>
+        <a href="#" class="B2" onclick="Function2()">Location</a>
+        <a href="#" class="B2" onclick="Function3()">About us</a>
+        <a href="#" class="B2" onclick="Function4()">Contact us</a>
+        <button class="B3" id="book" onclick="Function5()"><i class="fa-solid fa-bag-shopping"></i>  Book a Table</button>
+        <button class="B3" id="de" onclick="Function6()"><i class="fa-solid fa-location-pin"></i>  Delivery</button>
+    </div>
+    <div id="buttons">
+        <button class="B" onclick="Function()">Menue</button>
+        <button class="B" onclick="Function5()">Book a Table</button>
+        <button class="B" onclick="Function6()">delivery</button>
+        <button class="B" onclick="Function3()">About us</button>
+        <button class="B" onclick="Function4()">Contact us</button>
+    </div>
+    <h1 id="hd">Delicious street food</h1>
+    <script>
+        function Function(){
+            window.open("../menu page/menu.html");
+        }
+        function Function2(){
+            window.open("../location page/location.html","_blank")
+        }
+        function Function3(){
+            window.open("../about us page/aboutUs.html","_blank")
+        }
+        function Function4(){
+            window.open("../contact page/contact.html","_blank")
+        }
+        function Function5(){
+            window.open("../book a table page/BookTable.html","_blank")
+        }
+        function Function6(){
+            window.open("../delivery page/delivery.html","_blank")
+        }
+    </script>
+    
+    <script src="https://kit.fontawesome.com/d3e2be56a2.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
